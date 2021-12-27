@@ -1,7 +1,7 @@
 # Credit Commons documentation
 
 
-This repo will give access to the core documentation for the Credit Commons Protocol project.
+This repo will give access to the core documentation for the Credit Commons Protocol project, to be implementated as a Gitlab Pages site.
 
 ## The Credit Commons Protocol
 
@@ -45,6 +45,16 @@ Just as lone leaves can grow from mighty branches, any ledger can have 'leaf' ac
 ## Project Status
 
 A Proof-of-concept protocol and reference server implementation were created in 2020 (now deprecated). A beta release is under active development.
+
+### Project traction
+Two wider projects support the Credit Commons Protocol
+
+   - The Credit Commons Society - a 'foundation-in-waiting' collaborative society working to promote adoption of the Credit Common Protocol , act as guardian for the open source and social purposes of the Protocol, and foster learning, research, training.
+   - [Mutual Credit services](https://mutualcredit.services) - an 'as-a-service' business working in partnership with a variety of trading contexts globally to implenent specific ledger models appropriate to a wide avariety of contexts (all capable of intertrading via the Protocol).
+
+## Help Wanted!
+
+An open protocol with ambitions to become a significant primitive for thousands of ledgers (at the least!) needs 'many eyes' on it prior to being promoted for mass use.
 
 ## Developer documentation (itself in development)
 
