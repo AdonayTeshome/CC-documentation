@@ -7,11 +7,11 @@ This ReadMe is what we have at present.
 
 ## The Credit Commons Protocol
 
-A Protocol designed to allow accounting contexts of all kinds to be connected for transaction processing through federation (each context remaining sovereign).
+A protocol designed to allow accounting contexts of all kinds to be connected for transaction processing through federation (each context remaining sovereign).
 
-An open Protocol designed as a ledger transaction primitive for proposition, validation and completion of transactions between any two accounts on any ledger with a valid address in a namespace 'tree'.
+An open protocol designed as a ledger transaction primitive for proposition, validation and completion of transactions between any two accounts on any ledger with a valid address in a namespace 'tree'.
 
-The driving intent is to allow accounting contexts which are socially manageable (ie operate at some version of 'local' scale) to associate together in groups which are also socially manageable: this federation process can achieve economic 'network effects' without requiring centralised governance (states/fiat currencies) or trustlessness (permissionless crypto).
+The driving intent is to allow accounting contexts which are socially manageable (ie operate at some version of 'local' scale) to associate together in groups which are also socially manageable: this federation process produces an arbitrary, fractal 'tree' structure, which can deliver economic 'network effects' without requiring centralised governance (states/fiat currencies) or trustlessness (permissionless crypto).
 
 The Protocol is defined as an API.
 
