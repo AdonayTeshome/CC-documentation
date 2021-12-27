@@ -1,17 +1,15 @@
 # Credit Commons documentation
 
 
-This repo will give access to the core documentation for the Credit Commons Protocol project, to be implementated as a Gitlab Pages site.
+This repo will give access to the core documentation for the Credit Commons Protocol project, to be implemented as a Gitlab Pages site.
 
 ## The Credit Commons Protocol
 
-A protocol designed to allow accounting contexts of all kinds to be connected via a minimal protocol (so that each context remains sovereign).
-
-The driving intent is to allow accounting contexts which are socially manageable (ie operate at some version of 'local' scale) to associate together in groups which are also socially manageable. 
-
-This federation process can allow autonomous groups to achieve economic 'network scale' without requiring centralised governance (States/fiat currencies) or trustlessness (permissionless crypto).
+A protocol designed to allow accounting contexts of all kinds to be connected via a minimal protocol (each context remaining sovereign).
 
 An open protocol designed as a ledger transaction primitive for proposition, validation and completion of transactions between any two accounts on any ledger with a valid address in a namespace 'tree'.
+
+The driving intent is to allow accounting contexts which are socially manageable (ie operate at some version of 'local' scale) to associate together in groups which are also socially manageable: this federation process can achieve economic 'network effects' without requiring centralised governance (states/fiat currencies) or trustlessness (permissionless crypto).
 
 The protocol is defined as an API.
 
