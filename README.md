@@ -13,7 +13,7 @@ An open protocol designed as a ledger transaction primitive for proposition, val
 
 The driving intent is to allow accounting contexts which are socially manageable (ie operate at some version of 'local' scale) to associate together in groups which are also socially manageable: this federation process produces an arbitrary, fractal 'tree' structure, which can deliver economic 'network effects' without requiring centralised governance (states/fiat currencies) or trustlessness (permissionless crypto).
 
-The Protocol is described [here in functional terms in plain english](https://gitlab.com/credit-commons-software-stack/cc-php-lib/-/blob/master/docs/Accounting_TradeEngine_Fundamentals.md), [here as a microservice architecture](https://gitlab.com/credit-commons-software-stack/cc-php-lib/-/blob/master/docs/Accounting_TradeEngine_microservice_architecture.md)and [implemented here as an API](https://gitlab.com/credit-commons-software-stack/cc-php-lib).
+The Protocol is described [here in functional terms in plain english](https://gitlab.com/credit-commons-software-stack/cc-php-lib/-/blob/master/docs/Accounting_TradeEngine_Fundamentals.md), [here as a microservice architecture](https://gitlab.com/credit-commons-software-stack/cc-php-lib/-/blob/master/docs/Accounting_TradeEngine_microservice_architecture.md) and [implemented here as an API](https://gitlab.com/credit-commons-software-stack/cc-php-lib). Note that these may not agree in detail at all points.
 
 Each ledger in the tree is assumed to be an independent server - a 'black box' which is required only to implement the Protocol (respond appropriately to API calls) and have a valid address in the namespace.
 
