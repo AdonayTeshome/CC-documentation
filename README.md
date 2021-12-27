@@ -24,7 +24,7 @@ A transaction fundamentally increases the balance in the account to be credited,
 
 ## Purpose of the Credit Commons Protocol
 
-The Credit Commons Protocol allows any two accounts in an (arbitrary, fractal) nested tree of accounting ledgers to be appropriately adjusted (ie performance of an accounting transaction), reliably keeping all such transaction records in order. Transactions are 'validated' according to any policies which may have been applied through governance, but the Protocol does not 'care' what those policies are. The overall balance of any intermediary (non 'leaf') ledger will be unaffected by any transaction (by default the balance will always be zero).
+The Credit Commons Protocol allows any two accounts in an (arbitrary, fractal) nested tree of accounting ledgers to be appropriately adjusted (ie performance of an accounting transaction), reliably keeping all such transaction records in order. Transactions are 'validated' according to any policies which may have been applied through governance, but the Protocol does not 'care' what those policies are. The overall balance of any intermediary (non 'leaf') ledger will be unaffected by any transaction (by default the balance across all accounts on such a ledger will always be zero).
 
 Transactions may also be labelled with a 'business logic' identifier - on the basis of which other transactions may be automatically generated. but again, the Protocol does not 'care' what these are, or why they have been generated.
 
@@ -32,16 +32,18 @@ There are a (very few) Protocol level administrative functions - notably the abi
 
 What the meaning of the numbers in the accounts is, what the intent of the entities intitiating the transactions might be, what types of business logic may be applied - all this is irrelevant to the Protocol - assumed to be specified higher in the stack.
 
-The intention is for it to be usable in the widest practical variety of contexts, under the widest variety of conditions (of both technical implementation and social agreement).
+The intention is for the protocol to be usable in the widest practical variety of contexts, under the widest variety of conditions (of both technical implementation and social agreement).
 
-This is to facilitate the invention and elaboration of the gamut of social relationships which are in any way improved by the maintenance of abstract accounts, while ensuring that it is technoically possible for those social-relationship-contexts to connect to each other for exchange in some way improved by the movement of accounting numbers, if they consider such exchange useful.
+This is to facilitate the invention and elaboration of the gamut of social relationships which are in any way improved by the maintenance of abstract accounts, while ensuring that it is technically possible for those social-relationship-contexts to connect to each other for exchange in some way improved by the movement of accounting numbers, if they consider such exchange useful.
 
-the CredCom Protocol is *not* 'the Credit Commons' - any more than 'the internet protocol' know n as IP *is* 'the internet*.
+The Credit Commons Protocol is designed to allow the development of a 'Credit Commons' - but is not itself such a thing - any more than 'the internet protocol' known as IP *is* 'the internet*.
 
-'The Credit Commons' describes a federated 'fractal tree' of ledgers, where the ledgers constituting the trunk, branches and twigs *are* governed as 'mutual credit' exchanges, while the leaves, by contrast, can be anything they wish to be - anything from a single person, to a gift-economy collective, to a football team, to a blockchain, to a business or group of businesses, to a megacorporation.
-The only thing any of these needs to do to participate in the Credit Commons is to find a ledger which oit wishes to be a member of, and which will accept it as a member.
+A 'Credit Commons' describes a set of federated ledgers, forming a ' fractal tree', where the ledgers constituting the trunk, branches and twigs function as 'mutual credit' exchanges, while the leaves, by contrast, can be anything they wish to be - anything from a single person, to a gift-economy collective, to a football team, to a blockchain, to a business or group of businesses, to a megacorporation.
 
-Just as lone leaves can grow from mighty branches, any ledger can have 'leaf' accounts - in other words, members whose internal accounting method is private to them - and can be anything they like).
+The only thing any of these needs to do to participate in the Credit Commons is to find a ledger which it wishes to be a member of, and which will accept it as a member.
+
+Just as lone leaves can grow from mighty branches, any ledger can have 'leaf' accounts - in other words, members whose internal accounting method is private to them - and can be anything they like.
+
 
 ## Project Status
 
