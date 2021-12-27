@@ -38,7 +38,7 @@ This is to facilitate the invention and elaboration of the gamut of social relat
 
 The Credit Commons Protocol is designed to allow the development of a 'Credit Commons' - but is not itself such a thing - any more than 'the internet protocol' known as IP *is* 'the internet*.
 
-A 'Credit Commons' describes a set of federated ledgers, forming a ' fractal tree', where the ledgers constituting the trunk, branches and twigs function as 'mutual credit' exchanges, while the leaves, by contrast, can be anything they wish to be - anything from a single person, to a gift-economy collective, to a football team, to a blockchain, to a business or group of businesses, to a megacorporation.
+A 'Credit Commons' describes a set of federated ledgers, forming a 'fractal tree', where the ledgers constituting the trunk, branches and twigs function as 'mutual credit' exchanges, while the leaves, by contrast, can be anything they wish to be - anything from a single person, to a gift-economy collective, to a football team, to a blockchain, to a business or group of businesses, to a megacorporation.
 
 The only thing any of these needs to do to participate in the Credit Commons is to find a ledger which it wishes to be a member of, and which will accept it as a member.
 
@@ -47,7 +47,7 @@ Just as lone leaves can grow from mighty branches, any ledger can have 'leaf' ac
 
 ## Project Status
 
-A Proof-of-concept Protocol and reference server implementation were created in 2020 (now deprecated). A beta release is under active development.
+A Proof-of-concept Protocol and reference server implementation were created in 2020 (now deprecated). A beta release is under active development ([Protocol API](https://gitlab.com/credit-commons-software-stack/cc-php-lib/-/blob/master/docs/credit-commons-openapi-3.0.yml) and [Reference Implementation](https://gitlab.com/credit-commons-software-stack/cc-node)).
 
 ### Project traction
 Two wider projects support the Credit Commons Protocol
