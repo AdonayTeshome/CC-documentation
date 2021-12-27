@@ -36,7 +36,7 @@ The intention is for the protocol to be usable in the widest practical variety o
 
 This is to facilitate the invention and elaboration of the gamut of social relationships which are in any way improved by the maintenance of abstract accounts, while ensuring that it is technically possible for those social-relationship-contexts to connect to each other for exchange in some way improved by the movement of accounting numbers, if they consider such exchange useful.
 
-The Credit Commons Protocol is designed to allow the development of a 'Credit Commons' - but is not itself such a thing - any more than 'the internet protocol' known as IP *is* 'the internet*.
+The Credit Commons Protocol is designed to allow the development *of* a 'Credit Commons' - but is not itself such a thing - any more than the internet protocol known as IP *is* 'the internet*.
 
 A 'Credit Commons' describes a set of federated ledgers, forming a 'fractal tree', where the ledgers constituting the trunk, branches and twigs function as 'mutual credit' exchanges, while the leaves, by contrast, can be anything they wish to be - anything from a single person, to a gift-economy collective, to a football team, to a blockchain, to a business or group of businesses, to a megacorporation.
 
