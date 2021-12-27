@@ -3,7 +3,7 @@
 
 This repo will give access to the core documentation for the Credit Commons Protocol project, to be implemented as a Gitlab Pages site.
 
-This ReadMe is what we have at present.
+This ReadMe is what we have at present. Comments / issues welcome!
 
 ## The Credit Commons Protocol
 
