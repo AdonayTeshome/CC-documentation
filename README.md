@@ -1,3 +1,17 @@
+# Credit Commons documentation
+
+
+This repo will give access to the core documentation for the Credit Commons Protocol project.
+
+## The Credit commons Protocol
+
+An open protocol designed as a ledger transaction primitive for proposition, validation and completion of transactions between any two accounts on any ledger with a valid address in a namespace 'tree'.
+
+
+
+#HUGO CONTENT
+
+Info relevant to the deployment of this site on gitlab Pages using the Hugo static site generator.
 ![Build Status](https://gitlab.com/pages/hugo/badges/master/build.svg)
 
 ---
