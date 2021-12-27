@@ -60,7 +60,7 @@ Two wider projects support the Credit Commons Protocol
 An open protocol with ambitions to become a significant primitive for thousands of ledgers (at the least!) needs 'many eyes' on it prior to being promoted for mass use.
 
 ### Developers
-   - 'Black Hat' the protocol : it the protocol is  to be capable of global 'VISA-scale' transaction processing at the 'trunk' of a tree, it must be capablew of being implemented in and extraordinarily robust, reliable and speedy manner. Is this true? All sorts of work is necessary to build confidence on this point.
+   - 'White Hat' the protocol : it the protocol is  to be capable of global 'VISA-scale' transaction processing at the 'trunk' of a tree, it must be capablew of being implemented in and extraordinarily robust, reliable and speedy manner. Is this true? All sorts of work is necessary to build confidence on this point.
    - Reference implementation : currently written in PHP - can you help with this?
    - Reference client : needs building - can you help?
 
