@@ -3,6 +3,8 @@
 
 This repo will give access to the core documentation for the Credit Commons Protocol project, to be implemented as a Gitlab Pages site.
 
+This ReadMe is what we have at present.
+
 ## The Credit Commons Protocol
 
 A protocol designed to allow accounting contexts of all kinds to be connected via a minimal protocol (each context remaining sovereign).
