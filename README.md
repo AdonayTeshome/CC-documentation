@@ -7,35 +7,36 @@ This ReadMe is what we have at present.
 
 ## The Credit Commons Protocol
 
-A protocol designed to allow accounting contexts of all kinds to be connected via a minimal protocol (each context remaining sovereign).
+A Protocol designed to allow accounting contexts of all kinds to be connected via a minimal Protocol (each context remaining sovereign).
 
-An open protocol designed as a ledger transaction primitive for proposition, validation and completion of transactions between any two accounts on any ledger with a valid address in a namespace 'tree'.
+An open Protocol designed as a ledger transaction primitive for proposition, validation and completion of transactions between any two accounts on any ledger with a valid address in a namespace 'tree'.
 
 The driving intent is to allow accounting contexts which are socially manageable (ie operate at some version of 'local' scale) to associate together in groups which are also socially manageable: this federation process can achieve economic 'network effects' without requiring centralised governance (states/fiat currencies) or trustlessness (permissionless crypto).
 
-The protocol is defined as an API.
+The Protocol is defined as an API.
 
-Each ledger in the tree is assumed to be an independent server - a 'black box' which is required only to implement the Protocol and have a valid address in the namespace.
+Each ledger in the tree is assumed to be an independent server - a 'black box' which is required only to implement the Protocol (respond appropriately to API calls) and have a valid address in the namespace.
 
-The protocol, by design, requires only necessary information from each ledger in respect of its immediate 'trunkward' and 'leafward' connections to process a transaction.
+The protocol, by design, requires only a mminimum of necessary information from each ledger in respect of its immediate 'trunkward' and 'leafward' connections to process a transaction.
 
-A transaction fundamentally increases the balance in account to be credited, and reduces the balance in the account to be deited commensurately ('exchange rates' set by each ledger may mean that the debit and credit numbers are not the same).
-
+A transaction fundamentally increases the balance in the account to be credited, and reduces the balance in the account to be debited appropriately ('exchange rates' set by each ledger may mean that the debit and credit numbers are not the same). 'Policy' and 'Business Logic' are allowed for, to be implemented by each ledger autonomously: these allow for a wide variety of specific characteristics at ledger and transaction level to be developed, so that the Protocol can support significant diversity of implementation without loss of transaction processing interoperability.
 
 
 ## Purpose of the Credit Commons Protocol
 
-What the Credit Commons protocol does - literally all it does - is allow any two accounts in a nested treed of accounting ledgers to be commensurably adjusted without changing the overall balance of any ledgers (which will always add up to zero on any ledger), reliably keeping all such transaction records in order. Transactions are 'validated' according to any policies which may have been applied through governance, but the protocol does not care what those policies are.
-Transactions may also be labelled with a 'business logic' identifier - on the basis of which other transactions may be automatically generated. but again, the protocol does not care what these are, or why they have been generated.
-There are a (very few) protocol level administrative functions - notably the ability to run a transaction in reverse to effectively delete it - but that's it.
+The Credit Commons Protocol allows any two accounts in an (arbitrary, fractal) nested tree of accounting ledgers to be appropriately adjusted (ie performance of an accounting transaction), reliably keeping all such transaction records in order. Transactions are 'validated' according to any policies which may have been applied through governance, but the Protocol does not 'care' what those policies are. The overall balance of any intermediary (non 'leaf') ledger will be unaffected by any transaction (by default the balance will always be zero).
 
-What the meaning of the numbers in the accounts is, what the intent of the entities intitiating the transactions might be, what types of business logic may be applied - all this is specified higher in the stack.
+Transactions may also be labelled with a 'business logic' identifier - on the basis of which other transactions may be automatically generated. but again, the Protocol does not 'care' what these are, or why they have been generated.
+
+There are a (very few) Protocol level administrative functions - notably the ability to run a transaction in reverse to effectively delete it.
+
+What the meaning of the numbers in the accounts is, what the intent of the entities intitiating the transactions might be, what types of business logic may be applied - all this is irrelevant to the Protocol - assumed to be specified higher in the stack.
 
 The intention is for it to be usable in the widest practical variety of contexts, under the widest variety of conditions (of both technical implementation and social agreement).
 
 This is to facilitate the invention and elaboration of the gamut of social relationships which are in any way improved by the maintenance of abstract accounts, while ensuring that it is technoically possible for those social-relationship-contexts to connect to each other for exchange in some way improved by the movement of accounting numbers, if they consider such exchange useful.
 
-the CredCom protocol is *not* 'the Credit Commons' - any more than 'the internet protocol' know n as IP *is* 'the internet*.
+the CredCom Protocol is *not* 'the Credit Commons' - any more than 'the internet protocol' know n as IP *is* 'the internet*.
 
 'The Credit Commons' describes a federated 'fractal tree' of ledgers, where the ledgers constituting the trunk, branches and twigs *are* governed as 'mutual credit' exchanges, while the leaves, by contrast, can be anything they wish to be - anything from a single person, to a gift-economy collective, to a football team, to a blockchain, to a business or group of businesses, to a megacorporation.
 The only thing any of these needs to do to participate in the Credit Commons is to find a ledger which oit wishes to be a member of, and which will accept it as a member.
@@ -44,7 +45,7 @@ Just as lone leaves can grow from mighty branches, any ledger can have 'leaf' ac
 
 ## Project Status
 
-A Proof-of-concept protocol and reference server implementation were created in 2020 (now deprecated). A beta release is under active development.
+A Proof-of-concept Protocol and reference server implementation were created in 2020 (now deprecated). A beta release is under active development.
 
 ### Project traction
 Two wider projects support the Credit Commons Protocol
@@ -59,7 +60,7 @@ An open protocol with ambitions to become a significant primitive for thousands 
 ## Developer documentation (itself in development)
 
 ### Overview
-The Credit Commons is a protocol describing how mutual credit ledgers, arranged into a tree, can record transactions between any accounts on any ledger. It can be thought of as nested mutual credit accounting.
+The Credit Commons is a Protocol describing how mutual credit ledgers, arranged into a tree, can record transactions between any accounts on any ledger. It can be thought of as nested mutual credit accounting.
 
 Mutual credit means, in this context, that there are no 'goods' on the ledger; it logs movement of accounting units representing credit/debt between accounts; consequently that the sum of all account balances is zero.
 
@@ -164,7 +165,7 @@ Whenever the transaction is served to a leaf it includes a list of permitted tra
 As it stands the API has loopholes which would cause problems in high traffic or mission critical situations. These mostly seem like hard problems which may not be solved in version 1. These problems will all have been solved in other systems and it expected that with expert help, solutions will be found.
 
 #### Rounding errors
-Tiny decimal errors between nodes won't cause accounting problems, and should cancel each other out in the long run. However they could cause problems if the amount of each transaction is included in the mirror accounts' hash function. To prevent this the calculation is always done by the leafwards node and the communicated amount in both directions is denominated in the unit of the trunkwards node. Even so it will probably be necessary for the protocol to specify the number of decimal place OR for it to allow the trunkwards node to determine the number of decimal places.
+Tiny decimal errors between nodes won't cause accounting problems, and should cancel each other out in the long run. However they could cause problems if the amount of each transaction is included in the mirror accounts' hash function. To prevent this the calculation is always done by the leafwards node and the communicated amount in both directions is denominated in the unit of the trunkwards node. Even so it will probably be necessary for the Protocol to specify the number of decimal place OR for it to allow the trunkwards node to determine the number of decimal places.
 
 #### Order of transactions
 
