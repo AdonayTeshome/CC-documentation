@@ -1,4 +1,4 @@
-baseurl = "https://credit-commons-documentation.gitlab.io/"
+baseurl = "https://credit-commons-software-stack.gitlab.io/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
