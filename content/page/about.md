@@ -1,6 +1,6 @@
 ---
-title: About me
-subtitle: Why you'd want to hang out with me
+title: About
+subtitle: The Credit Commons Protocol
 comments: false
 ---
 
