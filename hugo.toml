@@ -1,0 +1,12 @@
+baseURL = 'localhost:1313'
+languageCode = 'en-us'
+title = 'Credit Commons Documentation'
+theme = 'hugo-theme-relearn'
+
+[params]
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = ["relearn-dark", "relearn-light" ]
+  
+[outputs]
+  # Required for search
+  home = ["HTML", "RSS", "SEARCH", "SEARCHPAGE"]
